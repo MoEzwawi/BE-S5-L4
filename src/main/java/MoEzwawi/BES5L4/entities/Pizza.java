@@ -1,7 +1,13 @@
 package MoEzwawi.BES5L4.entities;
 
 import java.util.List;
+import jakarta.persistence.Entity;
+import jakarta.persistence.Table;
+import lombok.NoArgsConstructor;
 
+@NoArgsConstructor
+@Entity
+@Table(name = "pizzas")
 public class Pizza extends MenuItem{
     private List<Topping> toppings;
     private boolean isXL;

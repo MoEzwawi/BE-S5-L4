@@ -1,6 +1,7 @@
 package MoEzwawi.BES5L4;
 
 import MoEzwawi.BES5L4.entities.Beverage;
+import MoEzwawi.BES5L4.entities.Menu;
 import MoEzwawi.BES5L4.entities.Pizza;
 import MoEzwawi.BES5L4.entities.Topping;
 import org.springframework.context.annotation.Bean;
