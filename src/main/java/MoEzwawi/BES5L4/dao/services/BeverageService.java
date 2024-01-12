@@ -1,15 +1,16 @@
 package MoEzwawi.BES5L4.dao.services;
 
-import MoEzwawi.BES5L4.dao.repositories.MenuItemRepository;
+import MoEzwawi.BES5L4.dao.repositories.BeverageRepository;
+import MoEzwawi.BES5L4.entities.Beverage;
 import MoEzwawi.BES5L4.entities.MenuItem;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Service
-public class MenuItemService {
+public class BeverageService {
     @Autowired
-    private MenuItemRepository itemRepository;
-    public void save(MenuItem menuItem){
+    private BeverageRepository itemRepository;
+    public void save(Beverage menuItem){
         itemRepository.save(menuItem);
     }
 }
